@@ -52,7 +52,9 @@ Step-by-step assembly manual (parts list, wiring diagram, connection tables, fit
 - 🇵🇹🇧🇷 **Português:** [C10_LED_BAR_Manual_montagem_PT.pdf](docs/hardware/C10_LED_BAR_Manual_montagem_PT.pdf)
 - 🇨🇳 **中文:** [C10_LED_BAR_Assembly_manual_ZH.pdf](docs/hardware/C10_LED_BAR_Assembly_manual_ZH.pdf)
 
-🛒 **Where to buy the LED bar:** [Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp)
+🛒 **Where to buy the LED bar:** [Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp) — **ask the seller to send the bar's connector too** (6 wires, 4 used: red +12 V and black GND to the fuse tap and ground; brown CANH and blue CANL to the SN65HVD230 CAN transceiver).
+
+🔧 **Fitting the bar:** remove the 4 upper screws, take out the original bar and fit the new one. The new bar is not plugged into the car's harness: its connector goes to the C10 LED controller.
 
 **Firmware:** flash it onto the ESP32-S3 with the **Windows installer** (`.exe`) from [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases). Ask for the installer key in a private message on **[Telegram @juanludetoledo](https://t.me/juanludetoledo)**.
 
