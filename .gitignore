@@ -1,0 +1,12 @@
+# Clave de firma: NUNCA al repositorio (va en GitHub Secrets)
+*.jks
+*.keystore
+keystore.properties
+
+# Gradle / Android Studio
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store

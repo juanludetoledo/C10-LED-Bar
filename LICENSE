@@ -1,0 +1,38 @@
+C10 LED — Non-Commercial License
+Copyright (c) 2026 juanludetoledo (Telegram: @juanludetoledo)
+
+This license covers everything in this repository: the C10 LED Control app
+source code, the official APK and Windows installer published in Releases,
+and the hardware assembly manuals and images.
+
+YOU MAY, free of charge:
+  - use the app, the installer and the manuals;
+  - copy, modify and share them, including modified versions;
+as long as you:
+  - give credit to "juanludetoledo" and link to this repository;
+  - share any modified version under this same license; and
+  - do not use any of it for commercial purposes.
+
+YOU MAY NOT:
+  - sell this project or any part of it (source code, APK, installer, keys,
+    manuals or images), on its own or bundled with hardware or a service;
+  - charge for installing, distributing or activating it;
+  - use it, or any work based on it, in a paid product or commercial service.
+
+The firmware for the C10 LED controller is not included in this repository.
+
+THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND. YOU INSTALL AND USE THE HARDWARE AND SOFTWARE AT YOUR OWN RISK. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING DAMAGE TO YOUR VEHICLE.
+
+---------------------------------------------------------------------------
+
+C10 LED — Licencia no comercial (resumen en español)
+
+Puedes usar, copiar, modificar y compartir este proyecto gratis, citando a
+"juanludetoledo" y este repositorio, y compartiendo tus cambios con esta misma
+licencia. NO puedes venderlo, ni ninguna parte de él (código, APK, instalador,
+claves, manuales o imágenes), ni cobrar por instalarlo o activarlo, ni usarlo
+en un producto o servicio de pago. Se entrega "tal cual", sin garantía: el
+montaje y el uso son bajo tu propia responsabilidad.
