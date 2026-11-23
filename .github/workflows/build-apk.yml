@@ -25,16 +25,22 @@ jobs:
       - name: Compilar
         run: gradle assembleDebug --no-daemon
 
-  # Al crear una etiqueta v... publica en Releases la APK oficial firmada (carpeta dist/) y el instalador
+  # Publica en Releases la APK oficial firmada (carpeta dist/) y el instalador.
+  # La version sale de .github/version (por ejemplo v18): al cambiarla se crea una version nueva.
   publicar:
-    if: startsWith(github.ref, 'refs/tags/v')
+    if: github.ref == 'refs/heads/main'
     needs: compilar
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Leer version
+        id: v
+        run: echo "tag=$(tr -d '[:space:]' < .github/version)" >> "$GITHUB_OUTPUT"
       - uses: softprops/action-gh-release@v2
         with:
-          name: C10 LED Control ${{ github.ref_name }}
+          tag_name: ${{ steps.v.outputs.tag }}
+          name: C10 LED Control ${{ steps.v.outputs.tag }}
+          make_latest: true
           body_path: .github/release-notes.md
           files: |
             dist/*.apk
