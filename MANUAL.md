@@ -41,6 +41,7 @@ Guía de **C10 LED Control**, la app para manejar la barra LED frontal del **Lea
 | **Idiomas** | Español, English, Português y 中文 (cambio en la propia app) |
 
 **Qué necesitas:**
+- La **barra LED**: puedes comprarla [aquí, en Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp).
 - La barra montada con la centralita **ESP32-S3 de 16 MB** (ver el [manual de montaje del hardware](docs/hardware/C10_LED_BAR_Manual_montaje_ES.pdf)).
 - El firmware de la barra grabado en la centralita con el **instalador para Windows** (`.exe`, en [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)). La clave del instalador pídela por privado en Telegram a **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - Un móvil **Android 8+** con Bluetooth, o un iPhone para la página Wi-Fi.

@@ -13,6 +13,7 @@
   <a href="https://github.com/juanludetoledo/C10-LED-Bar/releases"><b>⬇ Download APK (Releases)</b></a> ·
   <a href="https://github.com/juanludetoledo/C10-LED-Bar/issues"><b>🐞 Report an Issue (GitHub Issues)</b></a> ·
   <a href="https://t.me/juanludetoledo"><b>💬 Telegram</b></a> ·
+  <a href="https://www.alibaba.com/x/1lBZ7u1?ck=pdp"><b>🛒 Buy the LED bar</b></a> ·
   <a href="https://ko-fi.com/juanludetoledo"><b>☕ Ko-fi</b></a>
 </p>
 
@@ -50,6 +51,8 @@ Step-by-step assembly manual (parts list, wiring diagram, connection tables, fit
 - 🇬🇧🇺🇸 **English:** [C10_LED_BAR_Assembly_manual_EN.pdf](docs/hardware/C10_LED_BAR_Assembly_manual_EN.pdf)
 - 🇵🇹🇧🇷 **Português:** [C10_LED_BAR_Manual_montagem_PT.pdf](docs/hardware/C10_LED_BAR_Manual_montagem_PT.pdf)
 - 🇨🇳 **中文:** [C10_LED_BAR_Assembly_manual_ZH.pdf](docs/hardware/C10_LED_BAR_Assembly_manual_ZH.pdf)
+
+🛒 **Where to buy the LED bar:** [Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp)
 
 **Firmware:** flash it onto the ESP32-S3 with the **Windows installer** (`.exe`) from [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases). Ask for the installer key in a private message on **[Telegram @juanludetoledo](https://t.me/juanludetoledo)**.
 

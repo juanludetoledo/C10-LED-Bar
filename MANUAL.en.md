@@ -41,6 +41,7 @@ Guide to **C10 LED Control**, the app that drives the front LED bar of the **Lea
 | **Languages** | Español, English, Português and 中文 (switch inside the app) |
 
 **What you need:**
+- The **LED bar**: you can buy it [here, on Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp).
 - The bar fitted with the **16 MB ESP32-S3** controller (see the [hardware assembly manual](docs/hardware/C10_LED_BAR_Assembly_manual_EN.pdf)).
 - The bar firmware flashed onto the controller with the **Windows installer** (`.exe`, in [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)). Ask for the installer key in a private message on Telegram to **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - An **Android 8+** phone with Bluetooth, or an iPhone for the Wi-Fi page.

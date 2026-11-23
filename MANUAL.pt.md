@@ -41,6 +41,7 @@ O **C10 LED Control** comunica com a central da barra por **Bluetooth (BLE)** e 
 | **Idiomas** | Español, English, Português e 中文 (mudança dentro da app) |
 
 **O que precisa:**
+- A **barra LED**: pode comprá-la [aqui, no Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp).
 - A barra montada com a central **ESP32-S3 de 16 MB** (ver o [manual de montagem do hardware](docs/hardware/C10_LED_BAR_Manual_montagem_PT.pdf)).
 - O firmware da barra gravado na central com o **instalador para Windows** (`.exe`, em [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)). Peça a chave do instalador em privado no Telegram a **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - Um telemóvel **Android 8+** com Bluetooth, ou um iPhone para a página Wi-Fi.

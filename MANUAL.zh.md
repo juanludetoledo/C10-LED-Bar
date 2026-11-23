@@ -41,6 +41,7 @@
 | **语言** | Español、English、Português、中文（可在 App 内切换） |
 
 **所需条件：**
+- **LED 灯条**：可在[这里（Alibaba）](https://www.alibaba.com/x/1lBZ7u1?ck=pdp)购买。
 - 灯条已装好 **16 MB ESP32-S3** 控制器（见[硬件安装手册](docs/hardware/C10_LED_BAR_Assembly_manual_ZH.pdf)）。
 - 用 **Windows 安装程序**（`.exe`，见 [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)）将灯条固件烧录到控制器。安装程序的密钥请在 Telegram 私信 **[@juanludetoledo](https://t.me/juanludetoledo)** 获取。
 - 一部带蓝牙的 **Android 8+** 手机，或使用 Wi-Fi 页面的 iPhone。
