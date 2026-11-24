@@ -36,6 +36,11 @@ jobs:
       - name: Leer version
         id: v
         run: echo "tag=$(tr -d '[:space:]' < .github/version)" >> "$GITHUB_OUTPUT"
+      - name: Rehacer la version (solo si existe .github/rehacer-version)
+        if: hashFiles('.github/rehacer-version') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release delete "${{ steps.v.outputs.tag }}" --cleanup-tag -y --repo "${{ github.repository }}" || true
       - uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.v.outputs.tag }}
