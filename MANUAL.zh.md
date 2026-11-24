@@ -41,7 +41,7 @@
 | **语言** | Español、English、Português、中文（可在 App 内切换） |
 
 **所需条件：**
-- **LED 灯条** 及其 **6 线插头**：在[这里（Alibaba）](https://www.alibaba.com/x/1lBZ7u1?ck=pdp)购买，并 **请卖家一并寄来插头**。只用 4 根线：红线（+12 V）和黑线（GND）接取电器和搭铁；棕线（CANH）和蓝线（CANL）接 SN65HVD230。新灯条替换原车灯条：拧下上方 4 颗螺丝，取下原灯条，装上新灯条。
+- **LED 灯条** 及其 **6 线插头**：在[这里（Alibaba）](https://www.alibaba.com/x/1lBZ7u1?ck=pdp)购买，并 **请卖家一并寄来插头**。只用 4 针：**1 针**（+12 V）和 **2 针**（GND）接取电器和搭铁；**5 针**（CAN-H）和 **4 针**（CAN-L）接 SN65HVD230。不同卖家线色可能不同：请按针脚编号接（见硬件安装手册第 4 页）。新灯条替换原车灯条：拧下上方 4 颗螺丝，取下原灯条，装上新灯条。
 - 灯条已装好 **16 MB ESP32-S3** 控制器（见[硬件安装手册](docs/hardware/C10_LED_BAR_Assembly_manual_ZH.pdf)）。
 - 用 **Windows 安装程序**（`.exe`，见 [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)）将灯条固件烧录到控制器。安装程序的密钥请在 Telegram 私信 **[@juanludetoledo](https://t.me/juanludetoledo)** 获取。
 - 一部带蓝牙的 **Android 8+** 手机，或使用 Wi-Fi 页面的 iPhone。

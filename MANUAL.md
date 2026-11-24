@@ -41,7 +41,7 @@ Guía de **C10 LED Control**, la app para manejar la barra LED frontal del **Lea
 | **Idiomas** | Español, English, Português y 中文 (cambio en la propia app) |
 
 **Qué necesitas:**
-- La **barra LED** con su **conector de 6 cables**: cómprala [aquí, en Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp) y **pide al vendedor que te envíe también el conector**. Se usan 4 cables: rojo (+12 V) y negro (GND) al portafusibles y a masa; marrón (CANH) y azul (CANL) al SN65HVD230. La barra nueva sustituye a la original: se quitan los 4 tornillos superiores, se saca la barra y se coloca la nueva.
+- La **barra LED** con su **conector de 6 cables**: cómprala [aquí, en Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp) y **pide al vendedor que te envíe también el conector**. Se usan 4 pines: **pin 1** (+12 V) y **pin 2** (GND) al portafusibles y a masa; **pin 5** (CAN-H) y **pin 4** (CAN-L) al SN65HVD230. Los colores pueden cambiar según el vendedor: guíate por el número de pin (página 4 del manual de montaje). La barra nueva sustituye a la original: se quitan los 4 tornillos superiores, se saca la barra y se coloca la nueva.
 - La barra montada con la centralita **ESP32-S3 de 16 MB** (ver el [manual de montaje del hardware](docs/hardware/C10_LED_BAR_Manual_montaje_ES.pdf)).
 - El firmware de la barra grabado en la centralita con el **instalador para Windows** (`.exe`, en [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)). La clave del instalador pídela por privado en Telegram a **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - Un móvil **Android 8+** con Bluetooth, o un iPhone para la página Wi-Fi.

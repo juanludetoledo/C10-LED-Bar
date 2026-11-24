@@ -41,7 +41,7 @@ Guide to **C10 LED Control**, the app that drives the front LED bar of the **Lea
 | **Languages** | Español, English, Português and 中文 (switch inside the app) |
 
 **What you need:**
-- The **LED bar** with its **6-wire connector**: buy it [here, on Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp) and **ask the seller to send the connector too**. 4 wires are used: red (+12 V) and black (GND) to the fuse tap and ground; brown (CANH) and blue (CANL) to the SN65HVD230. The new bar replaces the original one: remove the 4 upper screws, take out the bar and fit the new one.
+- The **LED bar** with its **6-wire connector**: buy it [here, on Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp) and **ask the seller to send the connector too**. 4 pins are used: **pin 1** (+12 V) and **pin 2** (GND) to the fuse tap and ground; **pin 5** (CAN-H) and **pin 4** (CAN-L) to the SN65HVD230. Colours can vary by seller: follow the pin number (page 4 of the assembly manual). The new bar replaces the original one: remove the 4 upper screws, take out the bar and fit the new one.
 - The bar fitted with the **16 MB ESP32-S3** controller (see the [hardware assembly manual](docs/hardware/C10_LED_BAR_Assembly_manual_EN.pdf)).
 - The bar firmware flashed onto the controller with the **Windows installer** (`.exe`, in [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)). Ask for the installer key in a private message on Telegram to **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - An **Android 8+** phone with Bluetooth, or an iPhone for the Wi-Fi page.

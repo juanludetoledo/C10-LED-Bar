@@ -41,7 +41,7 @@ O **C10 LED Control** comunica com a central da barra por **Bluetooth (BLE)** e 
 | **Idiomas** | Español, English, Português e 中文 (mudança dentro da app) |
 
 **O que precisa:**
-- A **barra LED** com a sua **ficha de 6 cabos**: compre-a [aqui, no Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp) e **peça ao vendedor que envie também a ficha**. Usam-se 4 cabos: vermelho (+12 V) e preto (GND) ao porta-fusíveis e à massa; castanho (CANH) e azul (CANL) ao SN65HVD230. A barra nova substitui a original: retiram-se os 4 parafusos superiores, tira-se a barra e coloca-se a nova.
+- A **barra LED** com a sua **ficha de 6 cabos**: compre-a [aqui, no Alibaba](https://www.alibaba.com/x/1lBZ7u1?ck=pdp) e **peça ao vendedor que envie também a ficha**. Usam-se 4 pinos: **pino 1** (+12 V) e **pino 2** (GND) ao porta-fusíveis e à massa; **pino 5** (CAN-H) e **pino 4** (CAN-L) ao SN65HVD230. As cores podem variar consoante o vendedor: siga o número do pino (página 4 do manual de montagem). A barra nova substitui a original: retiram-se os 4 parafusos superiores, tira-se a barra e coloca-se a nova.
 - A barra montada com a central **ESP32-S3 de 16 MB** (ver o [manual de montagem do hardware](docs/hardware/C10_LED_BAR_Manual_montagem_PT.pdf)).
 - O firmware da barra gravado na central com o **instalador para Windows** (`.exe`, em [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)). Peça a chave do instalador em privado no Telegram a **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - Um telemóvel **Android 8+** com Bluetooth, ou um iPhone para a página Wi-Fi.
