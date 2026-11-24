@@ -172,5 +172,6 @@ A app é para Android. Num **iPhone**, ligue-se à rede **`JUANLU_C10LED_WiFi`**
 - 🐞 **Erros e sugestões:** abra um pedido em **[GitHub Issues](https://github.com/juanludetoledo/C10-LED-Bar/issues)** com o modelo do telemóvel, a versão da app e a do sketch.
 - 💬 **Suporte:** Telegram **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - ☕ **Ko-fi:** [https://ko-fi.com/juanludetoledo](https://ko-fi.com/juanludetoledo)
+- 📺 **Siga-me como @juanludetoledo:** [YouTube](https://www.youtube.com/@juanludetoledo) · [TikTok](https://www.tiktok.com/@juanludetoledo) · [Instagram](https://www.instagram.com/juanludetoledo)
 
 Projeto independente, sem relação com a Leapmotor.

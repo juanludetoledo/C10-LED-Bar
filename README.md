@@ -17,6 +17,13 @@
   <a href="https://ko-fi.com/juanludetoledo"><b>☕ Ko-fi</b></a>
 </p>
 
+<p align="center">
+  <a href="https://www.youtube.com/@juanludetoledo"><img src="https://img.shields.io/badge/YouTube-@juanludetoledo-FF0000?logo=youtube&logoColor=white" alt="YouTube @juanludetoledo"/></a>
+  <a href="https://www.tiktok.com/@juanludetoledo"><img src="https://img.shields.io/badge/TikTok-@juanludetoledo-000000?logo=tiktok&logoColor=white" alt="TikTok @juanludetoledo"/></a>
+  <a href="https://www.instagram.com/juanludetoledo"><img src="https://img.shields.io/badge/Instagram-@juanludetoledo-E4405F?logo=instagram&logoColor=white" alt="Instagram @juanludetoledo"/></a>
+  <a href="https://ko-fi.com/juanludetoledo"><img src="https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-29ABE0?logo=kofi&logoColor=white" alt="Ko-fi"/></a>
+</p>
+
 ---
 
 ## What is C10 LED Control?
@@ -95,13 +102,21 @@ For installation help: **Telegram [@juanludetoledo](https://t.me/juanludetoledo)
 
 ## Support the Project
 
-**C10 LED Control** is free, public and ad-free. If it makes your C10 shine and you'd like to buy me a coffee:
+**C10 LED Control** is created and maintained by **[juanludetoledo](https://github.com/juanludetoledo)**. It is free, public and ad-free. If it makes your C10 shine and you'd like to buy me a coffee:
 
 - ☕ **Ko-fi:** [https://ko-fi.com/juanludetoledo](https://ko-fi.com/juanludetoledo)
 
-You can also follow the project as **@juanludetoledo** on YouTube, TikTok, Instagram and Facebook.
-
 Thank you! ❤️
+
+---
+
+## Follow the Project
+
+New videos, updates and installs of the C10 LED bar — follow **@juanludetoledo**:
+
+- ▶️ **YouTube:** [https://www.youtube.com/@juanludetoledo](https://www.youtube.com/@juanludetoledo)
+- 🎵 **TikTok:** [https://www.tiktok.com/@juanludetoledo](https://www.tiktok.com/@juanludetoledo)
+- 📸 **Instagram:** [https://www.instagram.com/juanludetoledo](https://www.instagram.com/juanludetoledo)
 
 ---
 

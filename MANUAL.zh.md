@@ -172,5 +172,6 @@ App 仅支持 Android。使用 **iPhone** 时，连接 **`JUANLU_C10LED_WiFi`** 
 - 🐞 **问题与建议：** 在 **[GitHub Issues](https://github.com/juanludetoledo/C10-LED-Bar/issues)** 提交，并注明手机型号、App 版本和 sketch 版本。
 - 💬 **技术支持：** Telegram **[@juanludetoledo](https://t.me/juanludetoledo)**。
 - ☕ **Ko-fi：** [https://ko-fi.com/juanludetoledo](https://ko-fi.com/juanludetoledo)
+- 📺 **关注 @juanludetoledo：** [YouTube](https://www.youtube.com/@juanludetoledo) · [TikTok](https://www.tiktok.com/@juanludetoledo) · [Instagram](https://www.instagram.com/juanludetoledo)
 
 独立项目，与零跑汽车无关。
