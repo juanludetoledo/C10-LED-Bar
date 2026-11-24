@@ -46,6 +46,14 @@
 - 用 **Windows 安装程序**（`.exe`，见 [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)）将灯条固件烧录到控制器。安装程序的密钥请在 Telegram 私信 **[@juanludetoledo](https://t.me/juanludetoledo)** 获取。
 - 一部带蓝牙的 **Android 8+** 手机，或使用 Wi-Fi 页面的 iPhone。
 
+> [!WARNING]
+> **如何选对 ESP32（非常重要）：**
+> - 开发板：**ESP32-S3-DevKitC-1**，金属模块上印有 **N16R8**（16 MB 闪存 + 8 MB PSRAM）。
+> - 必须是 **ESP32-S3**：内置 **Wi-Fi 和蓝牙（BLE）**。ESP32-P4、H2、C6 或任何不带 Wi-Fi 和蓝牙的板子 **都不能用**。
+> - 模块为 **WROOM-1**（板载天线），**不是 WROOM-1U**（需要外接天线）。
+> - 板上有 **两个 USB-C 接口**。
+> - 商品标题里没有 **ESP32-S3** 和 **N16R8** 的，不要买。
+
 ---
 
 ## 2. 安装 App

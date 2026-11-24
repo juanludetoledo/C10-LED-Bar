@@ -46,6 +46,14 @@ Guía de **C10 LED Control**, la app para manejar la barra LED frontal del **Lea
 - El firmware de la barra grabado en la centralita con el **instalador para Windows** (`.exe`, en [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)). La clave del instalador pídela por privado en Telegram a **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - Un móvil **Android 8+** con Bluetooth, o un iPhone para la página Wi-Fi.
 
+> [!WARNING]
+> **Cómo elegir el ESP32 correcto (muy importante):**
+> - Placa **ESP32-S3-DevKitC-1**, con **N16R8** impreso en el módulo metálico (16 MB de memoria + 8 MB de PSRAM).
+> - Tiene que ser un **ESP32-S3**: lleva **Wi-Fi y Bluetooth (BLE)** integrados. Un ESP32-P4, H2, C6 o cualquier placa sin Wi-Fi ni Bluetooth **no sirve**.
+> - Módulo **WROOM-1** (antena integrada), **no WROOM-1U** (ese necesita antena externa).
+> - **Dos puertos USB-C** en la placa.
+> - Si el anuncio no pone **ESP32-S3** y **N16R8**, no lo compres.
+
 ---
 
 ## 2. Instalar la app

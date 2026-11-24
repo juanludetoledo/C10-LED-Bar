@@ -46,6 +46,14 @@ O **C10 LED Control** comunica com a central da barra por **Bluetooth (BLE)** e 
 - O firmware da barra gravado na central com o **instalador para Windows** (`.exe`, em [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases)). Peça a chave do instalador em privado no Telegram a **[@juanludetoledo](https://t.me/juanludetoledo)**.
 - Um telemóvel **Android 8+** com Bluetooth, ou um iPhone para a página Wi-Fi.
 
+> [!WARNING]
+> **Como escolher o ESP32 certo (muito importante):**
+> - Placa **ESP32-S3-DevKitC-1**, com **N16R8** impresso no módulo metálico (16 MB de memória + 8 MB de PSRAM).
+> - Tem de ser um **ESP32-S3**: traz **Wi-Fi e Bluetooth (BLE)** integrados. Um ESP32-P4, H2, C6 ou qualquer placa sem Wi-Fi nem Bluetooth **não serve**.
+> - Módulo **WROOM-1** (antena integrada), **não WROOM-1U** (esse precisa de antena externa).
+> - **Duas portas USB-C** na placa.
+> - Se o anúncio não disser **ESP32-S3** e **N16R8**, não o compre.
+
 ---
 
 ## 2. Instalar a app

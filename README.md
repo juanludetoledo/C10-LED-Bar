@@ -58,6 +58,14 @@ Step-by-step assembly manual (parts list, wiring diagram, connection tables, fit
 
 **Firmware:** flash it onto the ESP32-S3 with the **Windows installer** (`.exe`) from [Releases](https://github.com/juanludetoledo/C10-LED-Bar/releases). Ask for the installer key in a private message on **[Telegram @juanludetoledo](https://t.me/juanludetoledo)**.
 
+> [!WARNING]
+> **How to choose the right ESP32 (very important):**
+> - Board: **ESP32-S3-DevKitC-1**, with **N16R8** printed on the metal module (16 MB flash + 8 MB PSRAM).
+> - It must be an **ESP32-S3**: it has **Wi-Fi and Bluetooth (BLE)** built in. An ESP32-P4, H2, C6 or any board without Wi-Fi and Bluetooth **will not work**.
+> - Module **WROOM-1** (built-in antenna), **not WROOM-1U** (that one needs an external antenna).
+> - **Two USB-C ports** on the board.
+> - If the listing does not say **ESP32-S3** and **N16R8**, do not buy it.
+
 Parts: ESP32-S3-DevKitC-1 **N16R8 (16 MB)**, SN65HVD230 CAN transceiver, MPU6050 motion sensor, 12 V → 5 V USB-C converter, fuse tap (fuse FF41, 10 A), sealed box and dupont wires.
 
 ---
