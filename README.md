@@ -31,7 +31,7 @@
 **C10 LED Control** is the companion app for the **C10 LED** controller: an ESP32-S3 board that drives the **34-channel front LED bar** of the **Leapmotor C10** over the car's CAN bus. The app talks to the controller over **Bluetooth (BLE)** — switch the bar on and off, set the brightness, run light shows and design your own animations channel by channel.
 
 > [!IMPORTANT]
-> **Everything is free and public:** the app, the firmware and the hardware assembly manual.
+> **Free to use:** the app, the manuals and the hardware assembly guide are free and public. The firmware is flashed with the **Windows installer** and needs a **free key** — ask for it on **[Telegram @juanludetoledo](https://t.me/juanludetoledo)**.
 > If you like the project and want to support it, you can buy me a coffee on **[Ko-fi](https://ko-fi.com/juanludetoledo)**.
 
 ### Main Features
@@ -46,7 +46,7 @@
 - ✅ **Android Auto** and **home-screen widget**.
 - ✅ **iPhone** — Wi-Fi control page at `192.168.4.1`.
 - ✅ **Windows firmware installer** and **firmware updates over Wi-Fi** with a *back to original firmware* safety button.
-- ✅ **4 languages** — **Español · English · Português · 中文**.
+- ✅ **App in 4 languages** — **Español · English · Português · 中文** · PDF guides also in **Italiano**.
 
 ---
 
@@ -85,6 +85,11 @@ Step-by-step guide: installation, connecting to the bar, every tab, the animatio
 - 🇬🇧🇺🇸 **English:** [MANUAL.en.md](MANUAL.en.md)
 - 🇵🇹🇧🇷 **Português:** [MANUAL.pt.md](MANUAL.pt.md)
 - 🇨🇳 **中文:** [MANUAL.zh.md](MANUAL.zh.md)
+
+**Illustrated PDF guides** (Español · English · Português · Italiano · 中文) — attached to each [Release](https://github.com/juanludetoledo/C10-LED-Bar/releases) and also in [`docs/`](docs):
+
+- 📘 **Complete guide:** [ES](docs/complete_guide_C10LED_V18_ES.pdf) · [EN](docs/complete_guide_C10LED_V18_EN.pdf) · [PT](docs/complete_guide_C10LED_V18_PT.pdf) · [IT](docs/complete_guide_C10LED_V18_IT.pdf) · [中文](docs/complete_guide_C10LED_V18_CN.pdf)
+- 📄 **Quick guide:** [ES](docs/C10_LED_quickguide_V18_ES.pdf) · [EN](docs/C10_LED_quickguide_V18_EN.pdf) · [PT](docs/C10_LED_quickguide_V18_PT.pdf) · [IT](docs/C10_LED_quickguide_V18_IT.pdf) · [中文](docs/C10_LED_quickguide_V18_CN.pdf)
 
 ---
 
