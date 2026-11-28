@@ -645,7 +645,7 @@ fun C10App(ble: BleController) {
                             Text("Creado por Juanlu", color = Muted, fontSize = 12.sp)
                             Text("#juanludetoledo", color = Acento, fontSize = 17.sp, fontWeight = FontWeight.Bold)
                             Spacer(Modifier.height(6.dp))
-                            Text("Versión 18", color = Txt, fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
+                            Text("Versión 19", color = Txt, fontSize = 15.sp, fontWeight = FontWeight.ExtraBold)
                             Spacer(Modifier.height(4.dp))
                             Text("Proyecto independiente", color = Muted, fontSize = 11.sp)
                             Spacer(Modifier.height(10.dp))
