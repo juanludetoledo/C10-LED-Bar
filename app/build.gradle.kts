@@ -16,8 +16,8 @@ android {
         applicationId = "com.juanlu.c10led"
         minSdk = 26
         targetSdk = 34
-        versionCode = 61
-        versionName = "3.2.2-V18"
+        versionCode = 62
+        versionName = "3.2.3-V19"
     }
 
     // La clave de firma NO esta en este repositorio. La APK oficial se firma aparte y se publica en Releases.

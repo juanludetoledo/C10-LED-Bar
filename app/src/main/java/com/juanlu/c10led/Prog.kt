@@ -5,7 +5,7 @@ import java.util.Calendar
 
 /** Programacion dia/noche de ESTE movil (cada movil tiene la suya). */
 data class Prog(
-    val activa: Boolean = true,          // por defecto ENCENDIDA
+    val activa: Boolean = false,         // por defecto APAGADA (config inicial = sketch V18, no cambia parametros)
     val diaDesde: Int = 7 * 60,          // minutos desde las 00:00
     val nocheDesde: Int = 20 * 60,
     val valorDia: Int = 900,             // escala 0..1000 (cualquier valor)

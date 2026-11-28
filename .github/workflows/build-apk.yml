@@ -10,8 +10,10 @@ permissions:
   contents: write
 
 jobs:
-  # Comprueba que el codigo compila (APK de prueba sin firmar; no se publica)
-  compilar:
+  # Compila y FIRMA la APK oficial en el propio GitHub y publica el Release
+  # con la APK + el instalador + las guias. La version sale de .github/version.
+  publicar:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,25 +24,42 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.7'
-      - name: Compilar
-        run: gradle assembleDebug --no-daemon
 
-  # Publica en Releases la APK oficial firmada (carpeta dist/) y el instalador.
-  # La version sale de .github/version (por ejemplo v18): al cambiarla se crea una version nueva.
-  publicar:
-    if: github.ref == 'refs/heads/main'
-    needs: compilar
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Leer version
+      - name: Preparar la clave de firma
+        env:
+          KS_B64: ${{ secrets.SIGNING_KEYSTORE_B64 }}
+        run: |
+          if [ -z "$KS_B64" ]; then
+            echo "::error::Falta el secreto SIGNING_KEYSTORE_B64 (la clave de firma en base64). Anade los secretos del repositorio."
+            exit 1
+          fi
+          echo "$KS_B64" | base64 -d > c10led.jks
+          echo "Clave de firma preparada ($(wc -c < c10led.jks) bytes)."
+
+      - name: Compilar la APK firmada
+        env:
+          SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
+          SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
+          SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
+        run: gradle assembleRelease --no-daemon
+
+      - name: Preparar los ficheros del Release
         id: v
-        run: echo "tag=$(tr -d '[:space:]' < .github/version)" >> "$GITHUB_OUTPUT"
+        run: |
+          tag=$(tr -d '[:space:]' < .github/version)
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          apk=$(find app/build/outputs/apk/release -name "*.apk" ! -name "*unsigned*" | head -1)
+          if [ -z "$apk" ]; then echo "::error::No se genero una APK firmada"; exit 1; fi
+          mkdir -p dist
+          cp "$apk" "dist/C10-LED-Control-${tag}-release.apk"
+          echo "APK: dist/C10-LED-Control-${tag}-release.apk"
+
       - name: Rehacer la version (solo si existe .github/rehacer-version)
         if: hashFiles('.github/rehacer-version') != ''
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release delete "${{ steps.v.outputs.tag }}" --cleanup-tag -y --repo "${{ github.repository }}" || true
+
       - uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.v.outputs.tag }}
@@ -48,5 +67,7 @@ jobs:
           make_latest: true
           body_path: .github/release-notes.md
           files: |
-            dist/*.apk
+            dist/C10-LED-Control-${{ steps.v.outputs.tag }}-release.apk
             installer/LEDBAR_C10_JUANLU_Install.exe
+            docs/complete_guide_C10LED_V18_*.pdf
+            docs/C10_LED_quickguide_V18_*.pdf
